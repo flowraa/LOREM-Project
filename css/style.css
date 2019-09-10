@@ -1,0 +1,929 @@
+* { margin: 0;
+   padding: 0;
+
+ }
+ul { list-style: none;
+}
+a,a:hover,a:focus { text-decoration: none;
+}
+i { cursor:pointer;
+}
+img { vertical-align:middle;
+}
+
+/**********************Common css ends**********************/
+/**********************Banner part start**********************/
+
+#banner{  background: url(../images/banner.png) no-repeat center;
+		  background-size: cover;
+		  min-height: 110vh;
+ 		  
+}
+#banner .container h1 {  font-family: 'Open Sans', sans-serif;
+						 font-size:65PX;
+						 font-weight:400;
+						 color:#f9f9f9;
+						 padding-top:265px;
+						 padding-bottom:0;
+}
+#banner span { font-family: 'Francois One', sans-serif;
+			   font-size:65PX;
+			   font-weight:700;
+			   color:#66baba;
+}
+
+#banner p {	font-family:'Open Sans', sans-serif;
+			font-size:20pX;
+			font-weight:400;
+			line-height:32px;
+			color:#fcf7e0;
+			padding-top:45px;
+}
+#banner ul li a { font-family:'Open Sans', sans-serif;
+				  font-size:18px; 
+				  font-weight:400;
+				  text-transform:capitalize; 
+				  color:#f9f9f9;
+				  border: 2px solid #66baba;
+				  background: transparent;
+				  margin-top:78px;
+				  margin-bottom: 200px;
+				  margin-right: 17px;
+				  padding:15px 15px;
+				  border-bottom-left-radius:0;
+				  border-bottom-right-radius:25px;
+				  transition: all linear 0.5s;
+}
+#banner ul li a:hover { background:#66baba ;
+}
+#banner ul li:last child a { border-bottom-right-radius:25px;
+							
+ }
+/**********************Banner part ends**********************/
+/**********************Menubar part start**********************/
+
+#menubar-section { position: absolute;
+				   top:0;
+				   left:0;
+				   width:100%;
+}
+#menubar-section nav .navbar-nav .nav-item .nav-link{   font-family: 'Open Sans', sans-serif;
+														font-size:18px;
+														font-weight:500;
+														text-transform: uppercase;
+														color:#fff;
+														line-height:60px;
+														padding: 0 20px;
+														margin:;
+														position:relative;
+
+}
+#menubar-section nav .navbar-nav .nav-item .nav-link:hover { background:#fff;
+															 color:#444;
+
+}
+#menubar-section nav .navbar-nav .nav-item .nav-link.active { background:#4e6859;
+															  color:#fff;
+}
+#menubar-section nav .navbar-nav .nav-item .nav-link:after { position: absolute;
+															 content:'';
+															 width:0%;
+															 height:2px;
+															 background:#66baba;
+															 left:0;
+															 bottom:0;
+															 transition:all linear 0.4s;
+															 
+
+}
+
+#menubar-section nav .navbar-nav .nav-item .nav-link:hover::after,#menubar-section nav .navbar-nav .nav-item .nav-link.active:after{ width:100%;
+																																	 height:3px;	
+}
+/**********************Menubar part ends**********************/
+/**********************About part start**********************/
+
+#about-section { padding-top: 155px;
+
+}
+#about-section .container { background:;
+ }
+
+#about-section .aboutme-img { background:#fff;
+							  margin-bottom: 220px;
+							  box-shadow: 4px 4px 10px grey;
+
+}
+#about-section .about-me { padding:50px;
+						  
+ }
+
+
+
+#about-section .about-me h1 { font-family:'Open Sans', sans-serif;
+							  font-size:70px;
+							  font-weight:600;
+							  color:#66baba ;
+							  position: relative;
+							  padding-bottom: 30px;
+							  text-align: center;
+
+
+
+
+
+}
+#about-section .about-me h1 span { position: absolute;
+								   bottom:0;
+								   left:50%;
+								   color:#f7f7f7;
+								   z-index:-1;
+								   font-family: 'Francois One', sans-serif;
+								   font-size:100px;
+								   font-weight:bold;
+								   transform: translatex(-50%);
+								 
+
+
+ } 
+ #about-section .about-me p {  font-family: 'Open Sans', sans-serif;
+							   font-size:15px;
+							   font-weight:400;
+							   color:#242424;
+
+
+ }
+ /**********************About part ends*************************/
+  /**********************Skills part start**********************/
+
+
+ #skill-section { text-align: center;
+ }
+#skill-section .heading { position: relative;
+
+ }
+#skill-section .heading h1 {  font-family:'Open Sans', sans-serif;
+							  font-size:70px;
+							  font-weight:600;
+							  color:#66baba ;
+							  padding-bottom: 30px;
+							  text-align: center;
+
+  }
+#skill-section .heading  span {      position: absolute;
+								     bottom:0;
+								     left:50%;
+								     color:#f7f7f7;
+								     z-index:-1;
+								     font-family: 'Francois One', sans-serif;
+								     font-size:100px;
+								     font-weight:bold;
+								     transform: translatex(-50%);
+								     width: 100%;
+								     text-transform: uppercase;
+
+}
+
+#skill-section h3 {  font-family:'Open Sans', sans-serif; 
+ 					 font-size: 30px;
+ 					 font-weight: 700;
+ 					 color:#66baba;
+ 					 padding-top:49px;
+ 					 padding-bottom:48px;
+ 					 text-align: center;
+
+
+ }
+#skill-section .html{ background: #f48039;
+					  padding: 20px 0;
+					  margin-bottom: 94px;
+					     
+ }
+#skill-section .css{ background:#5cb6c7;;
+					  padding: 20px 0;
+					   margin-bottom: 94px; 
+ }
+
+#skill-section .js{ background:#5b573d;
+					 padding: 20px 0;
+					 margin-bottom: 94px; 
+}					
+#skill-section .js img { padding:22px 0;
+
+}
+#skill-section .bootstrap{ position: relative;
+ 							background:#b22f27;
+ 							padding: 42px 0;
+ 							margin-bottom: 94px;
+}
+#skill-section .bootstrap img {}
+#skill-section .bootstrap ul {   position: absolute;
+  								 bottom:50%;
+  								 left:0;
+  								 text-align: center;
+  								 width:100%;
+  								 transform: translateY(50%);
+  								 margin-bottom:0;
+  								 z-index: 1;
+   }
+  #skill-section .bootstrap ul li {	font-family:'Open Sans', sans-serif; 
+  									font-size:20px;
+  									font-weight:bold;
+  									color:#fff;
+
+
+  }
+  #skill-section .bootstrap::after { content: '';
+  									 opacity:0.9;
+  									 position:absolute;
+  									 top:0;
+  									 left:0;
+  									 width: 100%;
+  									 height: 100%;
+  									 background: #60553d;
+
+
+   }
+#skill-section .php { background:#4e4c3e;
+					  padding: 30px 0;
+					  margin-bottom: 94px; 
+ }
+ #skill-section .python { background:#4e4c3e;
+					      padding: 20px 0;
+					      margin-bottom: 94px;
+					      border-top: 5px solid #fdda52;
+ 						  border-left: 5px solid #b3b300;
+ 						  border-right: 5px solid #b3b300;
+ 						  border-bottom: 5px solid #618895;
+} 
+#skill-section .database {  position: relative;
+ 							background:#f3de56;
+ 							padding: 22px 0;
+ 							margin-bottom: 94px;
+
+}
+#skill-section .database ul {    position: absolute;
+  								 bottom:50%;
+  								 left:0;
+  								 text-align: center;
+  								 width:100%;
+  								 transform: translateY(50%);
+  								 margin-bottom:0;
+  								 z-index: 1;
+
+}
+#skill-section .database ul li { font-family:'Open Sans', sans-serif; 
+  							     font-size:20px;
+  							     font-weight:bold;
+  								 color:#4e4c3e;
+ }
+#skill-section .database::after {  content: '';
+  								   opacity:0.9;
+  								   position:absolute;
+  								   top:0;
+  								   left:0;
+  								   width: 100%;
+  								   height: 100%;
+  								   background:#f3de56;
+
+ }
+ #skill-section .data-visualization {  position: relative;
+ 									   background:#66baba;
+ 									   padding: 22px 0;
+ 									   margin-bottom: 94px;
+
+}
+#skill-section .seo { position: relative;
+ 					  background:#5b573d;
+ 					  padding: 42px 0;
+ 					  margin-bottom: 94px;
+
+}
+#skill-section .seo ul {   position: absolute;
+  						   bottom:50%;
+  						   left:0;
+  						   text-align: center;
+  						   width:100%;
+  					       transform: translateY(50%);
+  						   margin-bottom:0;
+  					        z-index: 1;
+
+
+}
+#skill-section .seo ul li {  font-family:'Open Sans', sans-serif; 
+  							 font-size:20px;
+  							 font-weight:bold;
+  						     color:#fff;
+
+}
+#skill-section .seo::after {  content: '';
+  							  opacity:0.9;
+  							  position:absolute;
+  							  top:0;
+  							  left:0;
+  							  width: 100%;
+  							  height: 100%;
+  							  background:#5b573d;
+ }
+ #skill-section .Campaigns { background:#c65e62;
+					         padding:15px 0;
+					         margin-bottom: 94px; 
+
+ }
+ #skill-section .Campaigns h4 { font-family:'Open Sans', sans-serif;  
+ 								font-size:30px;
+ 								font-weight:700;
+ 								color:#fff;
+ 								padding-top:19px;
+ }
+
+ #skill-section .Social-media{ background:#6479a5;
+					           padding:10px 0;
+					           margin-bottom: 94px; 
+
+ }
+  #skill-section .Social-media img { margin: 0 20px;
+  									 padding-top: 5px;
+
+
+
+  }
+  #skill-section .Social-media h4 {  font-family:'Open Sans', sans-serif;  
+ 								     font-size:30px;
+ 								     font-weight:700;
+ 								     color:#fff;
+ 								     padding-top:19px;
+
+
+
+  }
+  #skill-section .Graphic-design { position: relative;
+ 					  			   background:#61335f;
+ 					    		   padding: 42px 0;
+ 					  			   margin-bottom:180px;
+
+  }
+
+  #skill-section .Graphic-design ul{ position: absolute;
+  						   			bottom:50%;
+  						   		    left:0;
+  						   			text-align: center;
+  						   			width:100%;
+  					       			transform: translateY(50%);
+  						   			margin-bottom:0;
+  					        		z-index: 1;
+
+  }
+  #skill-section .Graphic-design ul li{ font-family:'Open Sans', sans-serif; 
+  							 			font-size:20px;
+  							 			font-weight:bold;
+  						     			color:#fff;
+
+  }
+    #skill-section .Graphic-design::after{  content: '';
+  							 			    opacity:0.9;
+  							  				position:absolute;
+  							 				top:0;
+  							  				left:0;
+  							  				width: 100%;
+  							  				height: 100%;
+  							  				background:#61335f;
+
+    }
+/**********************Skills part ends**********************/
+ 
+/**********************Resume heading part start**********************/
+#resume-heading{ text-align: center;
+ 				  padding-bottom: 125px;
+}
+ #resume-heading .heading { position: relative;
+
+ }
+#resume-heading .heading h1 {  font-family:'Open Sans', sans-serif;
+							  font-size:70px;
+							  font-weight:600;
+							  color:#66baba ;
+							  padding-bottom: 30px;
+							  text-align: center;
+							  text-transform: uppercase;
+
+  }
+
+#resume-heading .heading  span {     position: absolute;
+								     bottom:0;
+								     left:50%;
+								     color:#f7f7f7;
+								     z-index:-1;
+								     font-family: 'Francois One', sans-serif;
+								     font-size:100px;
+								     font-weight:bold;
+								     transform: translatex(-50%);
+								     width: 100%;
+								     text-transform: uppercase;
+
+}
+
+/**********************Resume heading part ends**********************/
+
+/**********************Resume part start**********************/
+
+#Resume-section { text-align: center;
+				  
+}
+#Resume-section .heading {  position: relative;
+
+}
+#Resume-section .heading h1 { font-family:'Open Sans', sans-serif;
+							  font-size:70px;
+							  font-weight:600;
+							  color:#66baba ;
+							  padding-bottom: 30px;
+							  text-transform: uppercase;
+							 
+
+}
+#Resume-section .heading span { position: absolute;
+								bottom:0;
+								left:50%;
+								color:#f7f7f7;
+								z-index:-1;
+								font-family: 'Open Sans', sans-serif;
+								font-size:100px;
+								font-weight:bold;
+								transform: translatex(-50%);
+							    width: 100%;
+								text-transform: uppercase;
+ }
+
+/*******Resume-section-1 part start********/
+
+ #Resume-section-1 h4 { font-family: 'Open Sans', sans-serif;
+						font-size:22px;
+						font-weight:bold;
+						color:#aaaaaa;
+						padding-bottom: 8px;
+						padding-left: 15px;
+}
+
+
+
+#Resume-section-1 .resume-box::after { content:"";
+										position: relative;
+										padding-left:20px;
+										width:25px;
+										height:25px;
+										background:#66baba;
+										top:-270px;
+										left:-26px;
+										border-radius: 50%;
+										border:2px solid #66baba;
+
+ } 
+ #Resume-section-1 .resume-box:hover::after { background: transparent;
+ 											  border:2px solid #66baba;
+ 											  box-shadow: 0 0 10px 5px #66baba;
+
+ }
+
+#Resume-section-1 .resume-box::before { position: absolute;
+										content:"";
+										left:0;
+										top:0;
+										width:2px;
+										height:100%;
+										background-color:#66baba;
+										
+
+}
+ 
+#Resume-section-1 .resume span { color:#242424;
+								 border:1px solid #242424;
+								 padding:5px 10px;
+								 font-size: 20px;
+								 border-bottom-right-radius:20px;
+								 margin-left: 15px;
+
+} 
+#Resume-section-1 .resume span:hover {  border:1px solid #66baba;
+
+}
+#Resume-section-1 .resume h5 { font-family:'Open Sans', sans-serif;
+							   font-size:22px;
+							   font-weight:bold;
+							   color:#242424;
+							   text-transform: uppercase;
+							   line-height: 33px;
+							   padding-top: 19px;
+							   padding-left: 15px;
+
+ } 
+#Resume-section-1 .resume h6 { font-family:'Open Sans', sans-serif;
+							   font-size:18px;
+							   font-weight:400;
+							   color:#242424;
+							   text-transform:capitalize;
+							   padding-left: 15px;
+
+} 
+#Resume-section-1 .resume p {  font-family:'Open Sans', sans-serif;
+							   font-size:14px;
+							   font-weight:400;
+							   color:#242424;
+							   text-transform:capitalize;
+							   padding-top: 30px;
+							   padding-left: 15px;
+ } 
+
+/*******Resume-section-1 part ends********/
+
+/*******Resume-section-2 part start********/
+
+#Resume-section-2 .resume-box::after { content:"";
+										position: relative;
+										padding-left:20px;
+										width:25px;
+										height:25px;
+										background:#66baba;
+										top:-270px;
+										left:-26px;
+										border-radius: 50%;
+										border:2px solid #66baba;
+
+ } 
+ #Resume-section-2 .resume-box:hover::after { background:transparent;
+ 											  border:2px solid #66baba;
+ 											  box-shadow: 0 0 10px 5px #66baba;
+ }
+#Resume-section-2 .resume-box::before { position: absolute;
+										content:"";
+										left:0;
+										top:0;
+										width:2px;
+										height:100%;
+										background-color:#66baba;
+										
+
+}
+ 
+#Resume-section-2 .resume span { color:#242424;
+								 border:1px solid #242424;
+								 padding:5px 10px;
+								 font-size: 20px;
+								 border-bottom-right-radius:20px;
+								 margin-left: 15px;
+}
+#Resume-section-2 .resume span:hover {  border:1px solid #66baba;
+
+}
+
+
+#Resume-section-2 .resume h5 { font-family:'Open Sans', sans-serif;
+							   font-size:22px;
+							   font-weight:bold;
+							   color:#242424;
+							   text-transform: uppercase;
+							   line-height: 33px;
+							   padding-top: 19px;
+							   padding-left: 15px;
+
+ } 
+#Resume-section-2 .resume h3 { font-family:'Open Sans', sans-serif;
+							   font-size:22px;
+							   font-weight:bold;
+							   color:#75bfbd;
+							   text-transform: uppercase;
+							   line-height: 30px;
+							   padding-top: 19px;
+							   padding-left: 15px;
+
+}
+
+
+
+#Resume-section-2 .resume h6 { font-family:'Open Sans', sans-serif;
+							   font-size:18px;
+							   font-weight:400;
+							   color:#242424;
+							   text-transform:capitalize;
+							   padding-left: 15px;
+ } 
+#Resume-section-2 .resume p {   font-family:'Open Sans', sans-serif;
+							   font-size:14px;
+							   font-weight:400;
+							   color:#242424;
+							   text-transform:capitalize;
+							   padding-top: 30px;
+							   padding-left: 15px;
+ } 
+
+
+/*******Resume-section-2 part ends********/
+/*******Resume-section-3 part start********/
+
+
+#Resume-section-3 .resume-box::after { content:"";
+										position: relative;
+										padding-left:20px;
+										width:25px;
+										height:25px;
+										background:#66baba;
+										top:-270px;
+										left:-26px;
+										border-radius: 50%;
+										border:2px solid #66baba;
+
+
+ } 
+
+ #Resume-section-3 .resume-box:hover::after { background: transparent;
+ 											  border:2px solid #66baba;
+ 											  box-shadow: 0 0 10px 5px #66baba;
+
+ }
+#Resume-section-3 .resume-box::before { position: absolute;
+										content:"";
+										left:0;
+										top:0;
+										width:2px;
+										height:100%;
+										background-color:#66baba;
+
+										
+
+}
+ 
+#Resume-section-3 .resume span { color:#242424;
+								 border:1px solid #242424;
+								 padding:5px 10px;
+								 font-size: 20px;
+								 border-bottom-right-radius:20px;
+								 margin-left: 15px;
+
+
+ }
+ #Resume-section-3 .resume span:hover {  border:1px solid #66baba;
+
+} 
+#Resume-section-3 .resume h5 { font-family:'Open Sans', sans-serif;
+							   font-size:22px;
+							   font-weight:bold;
+							   color:#242424;
+							   text-transform: uppercase;
+							   line-height: 33px;
+							   padding-top: 19px;
+							   padding-left: 15px;
+ } 
+#Resume-section-3 .resume h6 { font-family:'Open Sans', sans-serif;
+							   font-size:18px;
+							   font-weight:400;
+							   color:#242424;
+							   text-transform:capitalize;
+							   padding-left: 15px;
+ } 
+#Resume-section-3 .resume p {  font-family:'Open Sans', sans-serif;
+							   font-size:14px;
+							   font-weight:400;
+							   color:#242424;
+							   text-transform:capitalize;
+							   padding-top: 30px;
+							    padding-left: 15px;
+
+
+}
+/**********************Resume part ends**********************/
+/**********************Works part start**********************/
+
+#Works-section{ padding-top:193px;
+				padding-bottom:94px;
+
+}
+#Works-section .heading {  position: relative;
+
+}
+#Works-section .heading h1 { font-family:'Open Sans', sans-serif;
+					font-size:70px;
+					font-weight:600;
+					color:#66baba ;
+					padding-bottom: 30px;
+				    text-transform: uppercase;
+							 
+
+}
+#Works-section .heading span {  position: absolute;
+						bottom:0;
+					    left:50%;
+						color:#f7f7f7;
+						z-index:-1;
+						font-family:'Francois One', sans-serif;
+						font-size:100px;
+						font-weight:bold;
+						transform: translatex(-50%);
+					    width:100%;
+						text-transform: uppercase;
+ }
+ #Works-section ul { padding-top:98px;
+ 					 padding-bottom:54px;
+ }
+#Works-section ul li { padding: 0 30px;
+
+}
+#Works-section ul li a { font-family: 'Open Sans', sans-serif;
+						 font-size:24px;
+						 font-weight:400;
+						 color:#505050;
+
+
+ }
+#Works-section ul li a:hover { color:#66baba;
+							  
+
+
+}
+#Works-section ul li a.active { color:#66baba;
+ 								font-weight:800;
+ 								border:2px solid #66baba ;
+ 								padding:5px 25px;
+ 								border-bottom-right-radius:25px;
+}
+#Works-section img { margin-bottom:22px;
+
+}
+#Works-section .table:hover { filter:grayscale(5);
+								  
+}
+#Works-section .bag:hover { filter:grayscale(5);
+								  
+}
+#Works-section .Ice-cream:hover { filter:grayscale(5);
+								  
+}
+#Works-section .juice:hover { filter:grayscale(5);
+								  
+}
+#Works-section .hand:hover { filter:grayscale(5);
+								  
+}
+/**********************Works part ends**********************/
+/**********************next-project-section part strat**********************/
+#next-project-section .container{ background:#40afcc;
+								  margin-bottom: 198px;
+								  padding: 58px 77px;
+								  border-bottom-right-radius:100px;
+ }
+#next-project-section h1 { font-family:'Francois One', sans-serif;
+						   font-size:50px;
+						   font-weight:bold;
+						   color:#fff;
+						   text-transform:uppercase;
+
+
+
+
+}
+#next-project-section h2 { font-family:'Open Sans', sans-serif;
+						   font-size:50px;
+						   font-weight:400;
+						   color:#fff;
+						   text-transform:uppercase;
+
+}
+#next-project-section button { font-family:'Open Sans', sans-serif;
+						   font-size:24px;
+						   font-weight:800;
+						   color:#66baba;
+						   text-transform:capitalize;
+						   margin:30px 0;
+						   background:#fff;
+						   padding: 22px 35px;
+						   border-bottom-right-radius:50px;
+						  
+
+}
+#next-project-section button:hover { color: grey;
+								     box-shadow: 4px 4px 10px grey;
+}
+/**********************next-project-section part ends**********************/
+/**********************Get in touch part strat**********************/
+#Get-in-touch-section { text-align: center;
+						
+ }
+#Get-in-touch-section .heading { position: relative;
+								   margin-bottom: 99px;
+ }
+#Get-in-touch-section .heading h1 {  font-family:'Open Sans', sans-serif;
+							  		 font-size:70px;
+							         font-weight:600;
+							        color:#66baba ;
+							        padding-bottom: 30px;
+							       text-align: center;
+							     
+
+  }
+#Get-in-touch-section .heading  span {position: absolute;
+								     bottom:0;
+								     left:50%;
+								     color:#f7f7f7;
+								     z-index:-1;
+								     font-family: 'Francois One', sans-serif;
+								     font-size:100px;
+								     font-weight:bold;
+								     transform: translatex(-50%);
+								     width: 100%;
+								     text-transform: uppercase;
+								   
+
+}
+#Get-in-touch-form-section .form-group input { padding-bottom:30px;
+
+
+}
+#Get-in-touch-form-section .form-group button { background: red;
+
+
+}
+
+
+::placeholder{ color:#aaaaaa; !important;
+ }
+
+ /**********************next-project-section part ends**********************/
+ /**********************social part start**********************/
+ #social-section { margin-top: 94px;
+
+
+ }
+  #social-section .Github{ background:#f1fcff;
+  						   padding: 0 40px;
+  						    padding-top: 20px;
+  						    padding-bottom: 10px;
+  						    margin-bottom:100px;
+  						    border-bottom-right-radius:60px;
+
+  						   
+   }
+  #social-section .Github img{ float:left;
+  								padding-right: 30px;
+
+  }
+  #social-section .Github h3{ font-family:'Open Sans', sans-serif; 
+  							  font-size:30px;
+  							  font-weight:700 ;
+  							  color:#40afcc;
+  							  padding:25px 0;
+   }
+  #social-section .LINKEDIN{ background:#f1fcff;
+  						   padding: 0 40px;
+  						    padding-top: 20px;
+  						    padding-bottom: 10px;
+  						    margin-bottom:100px;
+  						    border-bottom-right-radius:60px;
+  						   
+  						   
+   }
+  #social-section .LINKEDIN img{ float:left;
+  								padding-right: 30px;
+
+
+  }
+  #social-section .LINKEDIN h3{ font-family:'Open Sans', sans-serif; 
+  							  font-size:30px;
+  							  font-weight:700 ;
+  							  color:#40afcc;
+  							  padding:25px 0;
+   }
+    #social-section .TWITTER{ background:#f1fcff;
+  						     padding: 0 40px;
+  						    padding-top:2px;
+  						    padding-bottom: 10px;
+  						    margin-bottom:100px;
+  						    border-bottom-right-radius:60px;
+  						   
+  						   
+   }
+
+  #social-section .TWITTER h3{ font-family:'Open Sans', sans-serif; 
+  							  font-size:30px;
+  							  font-weight:700 ;
+  							  color:#40afcc;
+  							  padding:25px 0;
+   }
+     #social-section .TWITTER ul li a { float:left;
+  								        padding-right: 30px;
+  								        padding-top:;
+  								        font-size:70px;
+  								        color:#40afcc; 
+  								      
+  }
+ /**********************social part ends**********************/
+ /**********************fotter part start**********************/
+#fotter-section{ background: #40afcc;
+							 padding: 50px 0;
+
+ }
+ #fotter-section  h5 { font-family:'Open Sans', sans-serif;
+ 					  font-size:22px ;
+ 					  font-weight:400;
+ 					  color:#fff;
+ 					  text-transform: capitalize;
+
+ }
